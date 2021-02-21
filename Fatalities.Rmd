@@ -1,0 +1,28 @@
+---
+title: "Fatalities"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Fatalities}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+## CourseraFB2: a super cool package!
+```{r setup}
+library(CourseraFB2)
+```
+
+
+Here you can create your own pile path with no mistakes!
+```{r}
+make_filename(2013)
+```
+
